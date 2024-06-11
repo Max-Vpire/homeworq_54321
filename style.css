@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    height: 49px;
+    background-color: rgb(21, 27, 69);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 5%;
+}
+
+.navbar ul p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.signin{
+    color: white; 
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav{
+    width: 100%;
+    height: 73px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50%;
+}
+
+.navs{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.navs p {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.roles{
+    background-color: rgb(135, 182, 198);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.roles h3{
+    font-family: sans-serif;
+    color: black;
+}
+.roles p {
+    font-family: sans-serif;
+    color: black;
+}
+.body {
+    background-image: url('images/Rectangle.png');
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.logosvg{
+    margin-left: 55%;
+}
+
+.firstway{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstway h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.firstway p{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.nextfirst{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nextfirst input{
+    width: 330px;
+    height: 28px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+.nextfirst button{
+    width: 108px;
+    height: 46px;
+    left: 372px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #190083;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;  
+}
+.addres{
+    margin-bottom: 40px;
+}
+.second{
+    background-color: #fff;
+    width: 100%;
+    height: 900px;
+    top: 694px;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.thirtway{
+    width: 100%;
+}
+.thirtway img {
+    width: 100%;
+}
+.fourway{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fiveway{
+    width: 100%;
+    height: 554px;
+    background-color: #F3E02B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+}
+.fiveway h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin: 20px;
+}
+.firstway p{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.fiveway button{
+    width: 137px;
+    height: 52px;
+    top: 280px;
+    left: 572px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #190083;
+    color: #fff;
+}
+
+.sixway{
+    width: 100%;
+    margin-top: 10%;
+}
+.sixway img{
+    width: 100%;
+}
+.takejob{
+    width: 100%;
+}
+.takejob img{
+    width: 100%;
+}
+.nextjob{
+    width: 100%;
+    height: 461px;
+    background-color: #0F1035;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nextjob h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.nextjob p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+.fere input{
+    width: 330px;
+    height: 28px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+.fere button{
+    width: 108px;
+    height: 46px;
+    left: 372px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #FF1100;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;  
+}
+.fere{
+    margin-bottom: 40px;
+}
+.lastone{
+    width: 100%;
+}
+.lastone img{
+    width: 100%;
+}
